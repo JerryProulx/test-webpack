@@ -1,0 +1,56 @@
+.hero {
+  height: 450px;
+  background: #CCC;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include atSmall {
+      transform: translate(-50%, -40%);
+    }
+  }
+
+  &__title {
+    color: #FFF;
+    font-size: 3rem;
+    padding: 1.5rem 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    border: 5px solid #FFF;
+    margin-bottom: 3rem;
+    white-space: nowrap;
+    margin-top: 0;
+
+    @include atSmall {
+      font-size: 5rem;
+      padding: 2.2rem 4rem;
+    }
+
+    @include atMedium {
+      font-size: 8rem;
+      padding: 5rem 8rem;
+    }
+  }
+
+  &__subtitle {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0;
+
+    @include atSmall {
+      font-size: 2.2rem;
+    }
+
+    @include atMedium {
+      font-size: 3rem;
+    }
+  }
+
+
+}

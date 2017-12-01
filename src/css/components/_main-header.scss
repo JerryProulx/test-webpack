@@ -1,0 +1,33 @@
+.main-header {
+  background: transparent;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+
+  &__logo {
+    color: #156;
+    font-size: 5rem;
+    width: 100px;
+  }
+
+  &__nav {
+  }
+
+  &__nav__item {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  &__nav__link {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0,0,0, 0.5);  
+    transition: all 0.3s ease-in;
+  }
+
+  &__nav__link:hover {  
+    color: rgba(0,0,0,1);  
+  }
+}
