@@ -1,7 +1,6 @@
 import 'normalize.css/normalize.css';
-import 'bootstrap';
+// import 'bootstrap';
 import './../css/style.scss';
+import Header from './components/header';
 
-$('h1').on('click',function(){
-  alert('clicked');
-})
+const header = new Header();

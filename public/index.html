@@ -1,54 +1,39 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width">
-    <title>This is my title</title>
-    <link href="styles.css" rel="stylesheet">
-    <style>
-      #section1 {
-        background: no-repeat url('https://cdn.pixabay.com/photo/2016/05/27/18/31/chaffinch-1420407_960_720.jpg');
-        background-repeat: repeat-y;
-      }
-      #section1 img {
-        vertical-align: top;
-        width: 100%; /* max width */
-        opacity: 0;
-      }
-    </style>
+    <title>Project Time!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-  <div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
-</div>
-    <header class="main-header">
-      <div class="container-fluid">
-        <div class="main-header__logo">Logo</div>
-        <nav class="main-header__nav">
-          <ul>
-            <li class="main-header__nav__item"><a class="main-header__nav__link" href="#">About Me</a></li>
-            <li class="main-header__nav__item"><a class="main-header__nav__link" href="#">Work</a></li>
-            <li class="main-header__nav__item"><a class="main-header__nav__link" href="#">Clients</a></li>
-            <li class="main-header__nav__item"><a class="main-header__nav__link" href="#">Contact</a></li>
+   <!-- header -->
+   <header class="site-header">
+    <div class="container">
+      <div class="row">
+        <div class="site-header__logo">LOGO</div>
+        <nav class="site-header__nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">Contact</li>
+            <li class="nav-list__item">Check</li>
+            <li class="nav-list__item">!@#!@#</li>
           </ul>
         </nav>
       </div>
-    </header>
-    <div class="hero">
-      <div class="hero__text">
-        <h1 class="hero__title">Artist Theme</h1>
-        <p class="hero__subtitle">Thinker // Designer // Youtuber</p>
-      </div>
     </div>
-    <div class="about-me">
-      <div class="container">
-        <p>Bacon ipsum dolor amet salami andouille burgdoggen jowl jerky alcatra cow shank boudin. Ham hock rump landjaeger, buffalo leberkas filet mignon spare ribs salami turducken chicken. Leberkas boudin burgdoggen, picanha venison pig tri-tip fatback turducken tongue capicola. Jowl pork chop sirloin pork loin ham tongue short ribs beef ribs meatball. Swine drumstick venison jowl pig short ribs burgdoggen ribeye capicola tri-tip boudin.
+   </header>
+   <div class="container">
+     <div class="hero">
+       <img src="img/car.jpg"/>
+       <div class="hero__text">
+         <h1 class="hero__text__title">The big title</h1>
+         <h3 class="hero__text__subtitle">This should be the subtitle, so check this out</h3>
+       </div>
+     </div>
+   </div>
 
-  Venison shankle pig, tongue burgdoggen tail porchetta fatback corned beef ground round pork pastrami. Jerky bresaola filet mignon shankle spare ribs flank. Doner short ribs chicken shoulder short loin. Beef ribs buffalo porchetta kevin tongue ham hock drumstick shankle pig beef brisket chicken tenderloin. Ham hock beef biltong shoulder, ball tip cupim filet mignon hamburger shank leberkas swine spare ribs.</p>
-      </div>
-    </div>
 
-    <div id="section1">
-     <img src="https://cdn.pixabay.com/photo/2016/05/27/18/31/chaffinch-1420407_960_720.jpg"/>
-    </div>
+
     <script src="bundle.js"></script>
   </body>
 </html>
